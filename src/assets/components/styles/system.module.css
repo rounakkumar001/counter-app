@@ -1,0 +1,13 @@
+.displayWidth {
+    width: 30%;
+    height: 400px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background: rgb(238, 174, 202); */
+    /* #ffafbd → #ffc3a0 */
+    background: linear-gradient(120deg, #ffafbd 0%, #ffc3a0 100%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

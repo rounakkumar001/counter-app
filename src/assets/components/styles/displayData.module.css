@@ -4,6 +4,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     font-weight: bolder;
    
+}
+.displayWidth h1{
+    font-size: 4rem;
+}
+
+.pos{
+    color :   #0d6efd;
+}
+.neg{
+    color: #dc3545 ;
 }

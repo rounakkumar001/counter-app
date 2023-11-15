@@ -1,13 +1,40 @@
 .displayWidth {
     width: 30%;
-    height: 400px;
+    height: auto;
     /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
     /* background: rgb(238, 174, 202); */
     /* #ffafbd → #ffc3a0 */
     background: linear-gradient(120deg, #ffafbd 0%, #ffc3a0 100%);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    
 }
+
+/* Small devices (phones, 576px and below) */
+@media only screen and (max-width: 576px) {
+
+    .displayWidth {
+            width: 100%;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+
+    .displayWidth {
+            width: 30%;
+    } 
+}
+
+
+
+/* Large devices (desktops, 992px and below) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .displayWidth {
+        width: 40%;
+} 
+  }
+  
